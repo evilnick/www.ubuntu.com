@@ -53,7 +53,7 @@ release. These charms are maintained by the Charmed Kubernetes team.
 | kubernetes-master | The Kubernetes control plane.| [docs](/kubernetes/docs/1.17/charm-kubernetes-master) | [source](https://github.com/charmed-kubernetes/charm-kubernetes-master) | | |
 | kubernetes-worker | The workload bearing units of a kubernetes cluster| [docs](/kubernetes/docs/1.17/charm-kubernetes-worker) | [source](https://github.com/charmed-kubernetes/charm-kubernetes-worker) | | |
 | openstack-integrator | Proxy charm to enable OpenStack integrations via Juju relations.| [docs](/kubernetes/docs/1.17/charm-openstack-integrator) | [source](https://github.com/juju-solutions/charm-openstack-integrator) | | |
-| tigera-secure-ee | Tigera Secure Enterprise Edition| [docs](/kubernetes/docs/1.17/charm-tigera-secure-ee) | [source]() | | |
+| tigera-secure-ee | Tigera Secure Enterprise Edition| [docs](/kubernetes/docs/1.17/charm-tigera-secure-ee) | [source](https://github.com/charmed-kubernetes/charm-tigera-secure-ee) | | |
 | vsphere-integrator | Proxy charm to enable VMware vSphere integrations via Juju relations.| [docs](/kubernetes/docs/1.17/charm-vsphere-integrator) | [source](https://github.com/juju-solutions/charm-vsphere-integrator) | | |
 
 
