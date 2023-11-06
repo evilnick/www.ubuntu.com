@@ -411,7 +411,7 @@ juju run-action kubernetes-worker/1 upgrade
 
 ## Upgrading the Machine's Series
 
-All of the charms support [upgrading the machine's series via Juju](https://juju.is/docs/upgrading-series).
+All of the charms support [upgrading the machine's series via Juju](https://juju.is/docs/juju/manage-machines#heading--upgrade-a-workload-machine)
 As each machine is upgraded, the applications on that machine will be stopped and the unit will
 go into a `blocked` status until the upgrade is complete. For the worker units, pods will be drained
 from the node and onto one of the other nodes at the start of the upgrade, and the node will be removed
@@ -464,7 +464,7 @@ warning: Immediate deletion does not wait for confirmation that the running reso
 pod "nginx-ingress-kubernetes-worker-controller-r8d2v" force deleted
 ```
 
-You should verify that the pod has been sucessfully removed:
+You should verify that the pod has been successfully removed:
 
 ```bash
 kubectl get po --all-namespaces
